@@ -1,0 +1,263 @@
+.iin
+{
+    /*padding-bottom: 12;*/
+    background-color: white;
+    text-align: center;
+   display: flex;
+   
+
+   justify-content: flex-start;
+   width: 200px;
+}
+
+
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border: none;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4f5d73;
+}
+.container
+{   
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+    
+    
+   
+}
+
+
+.chat-box
+{
+    width: 380px;
+    height: 500px;
+    /*overflow: scroll;*/
+    background-color: darkgray;
+    
+    
+    
+}
+.textname
+{
+    padding: 8px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap:wrap;
+    
+}
+.online
+{
+    font-size: small;
+    padding-left:5px ;
+    color: green;
+    
+}
+
+
+.chat
+{
+    width: 100%;
+    height: 85%;
+    padding: 0 15px;
+    color:rgb(255, 255, 255);
+    position: relative;
+    font-size: 1.0em;
+    overflow-y: scroll;
+}
+.hi
+{   color: #000;
+    width:60%;
+    word-wrap: break-word;
+    background-color: white;
+    padding: 7px 10px;
+    padding-left: 20px  ;
+    border-radius: 10px 10px 10px 0;
+    margin: 10px 0;
+    
+}
+
+.hi2
+{
+    color: #000;
+    width:60%;
+    word-wrap: break-word;
+    background-color: lightgreen;
+    padding: 7px 10px;
+    padding-left: 20px  ;
+    border-radius: 10px 10px 0 10px;
+    margin: 5px 0 5px auto;
+}
+.input 
+{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 80px;
+    background-color: darkgrey;
+    padding: 15px;
+    
+   
+    
+
+    
+    overflow: hidden;
+    position: absolute;
+    bottom: -60px;
+    right: 200px;
+    margin-bottom: auto;
+    
+    
+}
+
+.input input
+{
+    width: calc(100% - -120%);
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    color: #000;
+    font-size: 1.2em;
+    padding: 0 15px;
+}
+.sentbtm
+{
+    
+    border-radius: 50%;
+    padding-right: 0px;
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    border:1px gray ;
+
+}
+.sentbtm:hover{
+    background-color: blue;
+    
+}
+.sentbtm img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.pi{
+    border-radius: 50%;
+    margin-left:10px ;
+    width: 40px;
+    height: 40px;
+}
+
+.PIG
+{
+
+   
+    padding-right: 0px;
+    /*padding-left: 280;*/
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    overflow: hidden;
+    position: relative;
+    /*margin-left:10px ;*/
+    cursor: pointer;
+   
+    border:1px gray ;
+    border-radius: 50%;
+    
+
+
+}
+
+.Wait
+{
+    border: 4px solid #acacac;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+.thbu
+{
+    font-size: 110%;
+    background-color:  lightgreen;
+    
+
+}
+.thbu:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.thbuu
+{
+    font-size: 110%;
+
+    
+
+}
+.sa
+{
+    font-size: 110%,
+}
+.thbuu:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.d{
+    font-size:15px;
+    background-color: lightgreen;
+}
+.d:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.dd{
+    font-size:15px;
+    background-color:white;
+}
+.dd:hover{
+    color: blue;
+    text-decoration: underline;
+}
