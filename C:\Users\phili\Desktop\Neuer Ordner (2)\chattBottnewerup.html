@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <!--meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="chatcssnewer.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Hier kommt der  chatt bott!-->
+    <div class="container">
+        <div class = "chat-box">
+            <div class="textname">
+                <h3>Maria</h3>
+                <div id="status" class="online"></div>
+            </div>
+            <div id="messages" class="chat">
+                <div class="firstMa">
+                    <p class="hi">ich bin maria ihr persönlicher chatbot und helfe ihnen wie man fake news erkennt</p>
+                    <p class="hi">ps unser chat bot hat eine art ki eingebaut sie können zum beispiel hallo , wie geht es dir etz , das können sie einfach ins inputfeld eingeben </p>
+                    <p class="hi">ps unser chat kann auch deine stimme erkennen und in das input feld übertragen</p>
+                
+                   
+                    <p class="hi2">Was wollen Sie wissen? <br>
+                        <button class="d" type="button" title="Senden" onclick="schleife1()">was sind fake news </button><br><br>
+                        <button class="d"type="button" title="Senden" onclick="schleife2()">was kann man gegen fake news machen</button><br><br>
+                        <button class="d"type="button" title="Senden" onclick="schleife3()">wie bemrkt mann das etwas eine fake news ist</button><br><br>
+                        <button class="d" type="button" title="Senden" onclick="schleife4()">was genau ist ein deep fake </button><br><br><br>
+                        <button class="d" type="button" title="Senden" onclick="schleife5()">Wie werden fake new verbreitet</button><br><br>
+                        <button  class="d" type="button" title="Senden" onclick="schleife6()">algemeine tips zu fake newsv</button><br><br>
+                        <button  class="d" type="button" title="Senden" onclick="schleife6()">warum verbreitet man fake news </button><br><br>
+
+                    </p>
+                   
+                </div> 
+            </div>
+        </div>
+        <div class="iin">
+            <div class="input">
+                <input id="input" type="text"  placeholder="Nachricht" value="">
+                    <button type="submit" title="Senden" class="sentbtm" onclick="Senden()">
+                        <img src="https://th.bing.com/th/id/OIP.ELFXTbWWJT2NRHh6VG2acwHaHa?pid=ImgDet&rs=1" alt="sentbtm"></img>
+                    </button>
+                    <button title="speechtotext" type="submit" onclick="runSpeechRecognition()" class="pi">
+                        <img alt="" class="PIG" src="https://previews.123rf.com/images/aalbedouin/aalbedouin1707/aalbedouin170700419/81509865-mikrofon-symbol-symbol-premium-qualit%C3%A4t-isoliert-karaoke-element-im-trendigen-stil-.jpg"></img>
+                    </button>
+                </input>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="text/javascript" src="index.js" ></script>
+    <script type="text/javascript" src="const.js" ></script>
+    <script type="text/javascript" src="texttospeech.js" ></script>
+    <script type="text/javascript" src="speechtotext.js" ></script>
+
+</body>
+</html>
